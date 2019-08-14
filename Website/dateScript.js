@@ -56,10 +56,10 @@ function genName(race) {
 
 }
 function readTextFile(file) {
-    var names;
+    var names = new Array();
     jQuery.get(file, function (data) {
         names = data.split('\n');
-        return names;
+        console.log(name);
         //process text file line by line       
     });
 }
