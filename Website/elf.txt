@@ -1,4 +1,3 @@
-Abadda
 Abarat
 Adamar
 Adorellan
@@ -9,7 +8,6 @@ Aerendyl
 Aermhar
 Aesar
 Aeson
-
 Cystenn
 Dalyor
 Dakath
@@ -31,7 +29,6 @@ Durothil
 Dyffros
 Earynspieir
 Edansyr
-Edicûve
 Edwyrd
 Edyrm
 Ehlark
@@ -57,7 +54,6 @@ Gaeleath
 Gaelin
 Galaeron
 Galan
-G
 Ivlisar
 Ivósaar
 Ivran
