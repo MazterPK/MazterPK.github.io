@@ -1,0 +1,12 @@
+﻿form {
+    text-align: center;
+    background-color:whitesmoke;
+    overflow:auto;
+}
+table{
+    text-align: left;
+}
+body {
+    text-align: center;
+    background-color: lightgray;
+}
