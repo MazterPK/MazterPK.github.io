@@ -59,7 +59,7 @@ function readTextFile(file) {
     var names = new Array();
     jQuery.get(file, function (data) {
         names = data.split('\n');
-        console.log(name);
+        console.log(names);
         //process text file line by line       
     });
 }
