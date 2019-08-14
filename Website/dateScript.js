@@ -59,9 +59,11 @@ function readTextFile(file) {
     var names = new Array();
     jQuery.get(file, function (data) {
         names = data.split('\n');
-        console.log(names);
+        var index = roll(1, 3)
+        document.getElementById("charLb").value = names[index]
         //process text file line by line       
     });
+    console.log(names);
 }
 function genRace() {
     var races = ["Dragonborn", "Dwarf", "Elf", "Gnome", "Half-Elf","Halfling","Half-Orc","Human","Tiefling"]
