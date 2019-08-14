@@ -53,7 +53,7 @@ function genName(race) {
 
 }
 function readTextFile(file) {
-    jQuery.get("test.txt", function (data) {
+    jQuery.get(file, function (data) {
         alert(data);
         //process text file line by line
         $('#div').html(data.replace('n', ''));
