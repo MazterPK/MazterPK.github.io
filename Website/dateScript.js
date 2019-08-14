@@ -39,28 +39,28 @@ function genName(race) {
             readTextFile("dragonborn.txt");
             break;
         case "Dwarf":
-            readTextFile("dragonborn.txt");
+            readTextFile("dwarf.txt");
             break;
         case "Elf":
-            readTextFile("dragonborn.txt");
+            readTextFile("elf.txt");
             break;
         case "Gnome":
-            readTextFile("dragonborn.txt");
+            readTextFile("gnome.txt");
             break;
         case "Half-Elf":
-            readTextFile("dragonborn.txt");
+            readTextFile("half-elf.txt");
             break;
         case "Halfling":
-            readTextFile("dragonborn.txt");
+            readTextFile("halfling.txt");
             break;
         case "Half-Orc":
-            readTextFile("dragonborn.txt");
+            readTextFile("half-orc.txt");
             break;
         case "Human":
-            readTextFile("dragonborn.txt");
+            readTextFile("human.txt");
             break;
         case "Tiefling":
-            readTextFile("dragonborn.txt");
+            readTextFile("tiefling.txt");
             break;
     }
 
