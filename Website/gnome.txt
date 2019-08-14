@@ -95,3 +95,6 @@ Quaros
 Tanni
 Toros
 Calgrim
+Aldon
+Tankas
+Bilston
