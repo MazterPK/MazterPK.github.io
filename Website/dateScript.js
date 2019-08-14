@@ -15,11 +15,15 @@ function textManip() {
 }
 function generate() {
     clearCheckBoxes();
+    clearName();
     var clas = genClass();
     var race = genRace();
     genStats(clas, race);
     genName(race);
     
+}
+function clearName() {
+    document.getElementById("charLb").value = "";
 }
 function clearCheckBoxes() {
     document.getElementById("strSvChk").checked = false;
@@ -33,25 +37,31 @@ function genName(race) {
     switch (race) {
         case "Dragonborn":
             readTextFile("dragonborn.txt");
-            var temp = roll(1, 100);
-            //document.getElementById("charLb").value = name[temp];
             break;
         case "Dwarf":
-
+            readTextFile("dragonborn.txt");
+            break;
         case "Elf":
-
+            readTextFile("dragonborn.txt");
+            break;
         case "Gnome":
-
+            readTextFile("dragonborn.txt");
+            break;
         case "Half-Elf":
-
+            readTextFile("dragonborn.txt");
+            break;
         case "Halfling":
-
+            readTextFile("dragonborn.txt");
+            break;
         case "Half-Orc":
-
+            readTextFile("dragonborn.txt");
+            break;
         case "Human":
-
+            readTextFile("dragonborn.txt");
+            break;
         case "Tiefling":
-
+            readTextFile("dragonborn.txt");
+            break;
     }
 
 }
@@ -59,7 +69,7 @@ function readTextFile(file) {
     var names = new Array();
     jQuery.get(file, function (data) {
         names = data.split('\n');
-        var index = roll(1, 3)
+        var index = (roll(1, 3) - 1);
         document.getElementById("charLb").value = names[index]
         //process text file line by line       
     });
