@@ -18,8 +18,8 @@ function generate() {
     var clas = genClass();
     var race = genRace();
     genStats(clas, race);
-    readTextFile('.\test.txt');
-    //genName(race);
+    genName(race);
+    
 }
 function clearCheckBoxes() {
     document.getElementById("strSvChk").checked = false;
@@ -32,7 +32,10 @@ function clearCheckBoxes() {
 function genName(race) {
     switch (race) {
         case "Dragonborn":
-
+            var name = readTextFile('.\Dragonborn.txt');
+            var temp = roll(1, 100);
+            document.getElementById("charLb").value = name[temp];
+            break;
         case "Dwarf":
 
         case "Elf":
@@ -57,7 +60,7 @@ function readTextFile(file) {
         alert(data);
         //process text file line by line
         $('#div').html(data.replace('n', ''));
-        console.log(data);
+        return data;
     });
 }
 function genRace() {
