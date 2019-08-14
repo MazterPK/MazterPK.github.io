@@ -32,7 +32,7 @@ function clearCheckBoxes() {
 function genName(race) {
     switch (race) {
         case "Dragonborn":
-            readTextFile("Dragonborn.txt");
+            readTextFile("dragonborn.txt");
             var temp = roll(1, 100);
             //document.getElementById("charLb").value = name[temp];
             break;
