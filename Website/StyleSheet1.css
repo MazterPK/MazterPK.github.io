@@ -8,5 +8,9 @@ table{
 }
 body {
     text-align: center;
-    background-color: lightgray;
+    background-color: white;
+}
+img {
+    max-width: 100%;
+    height: auto;
 }
