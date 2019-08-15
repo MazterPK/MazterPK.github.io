@@ -8,9 +8,7 @@
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
 </head>
 <body>
-    <input type='file' accept='text/plain' onchange='openFile(event)'><br>
-    <div id='output'>
-    </div>
+
     <h1>Character Gen</h1>
     <h4 id='date'></h4>
     <!--<button onclick="revealMessage()">Click Here</button>-->
@@ -99,8 +97,103 @@
                 <td><input type="text" value="" id="chaSvMod" /></td>
             </tr>
         </table>
-        <input type="button" value="Generate!" onclick="generate()">
+        <table id="savesTbl" style="width:43%; float:left; display:inline-block">
+            <tr>
+                <td><h3> Skills</h3> </td>
+            </tr>
+            <tr>
+                <td><label> Acrobatics </label></td>
+                <td><input type="checkbox" value="" id="acrChk" /></td>
+                <td><input type="text" value="" id="acrMod" /></td>
+            </tr>
+            <tr>
+                <td><label> Animal Handling </label></td>
+                <td><input type="checkbox" value="" id="aniChk" /></td>
+                <td><input type="text" value="" id="aniSvMod" /></td>
+            </tr>
+            <tr>
+                <td><label> Arcana </label></td>
+                <td><input type="checkbox" value="" id="arcChk" /></td>
+                <td><input type="text" value="" id="arcMod" /></td>
+            </tr>
+            <tr>
+                <td><label> Athletics </label></td>
+                <td><input type="checkbox" value="" id="athChk" /></td>
+                <td><input type="text" value="" id="athMod" /></td>
+            </tr>
+            <tr>
+                <td><label> Deception </label></td>
+                <td><input type="checkbox" value="" id="decChk" /></td>
+                <td><input type="text" value="" id="decMod" /></td>
+            </tr>
+            <tr>
+                <td><label> History </label></td>
+                <td><input type="checkbox" value="" id="hisChk" /></td>
+                <td><input type="text" value="" id="hisMod" /></td>
+            </tr>
+            <tr>
+                <td><label> Insight </label></td>
+                <td><input type="checkbox" value="" id="insChk" /></td>
+                <td><input type="text" value="" id="insMod" /></td>
+            </tr>
+            <tr>
+                <td><label> Intimidation </label></td>
+                <td><input type="checkbox" value="" id="intChk" /></td>
+                <td><input type="text" value="" id="intMod" /></td>
+            </tr>
+            <tr>
+                <td><label> Invesitgation </label></td>
+                <td><input type="checkbox" value="" id="invChk" /></td>
+                <td><input type="text" value="" id="invMod" /></td>
+            </tr>
+            <tr>
+                <td><label> Medicine </label></td>
+                <td><input type="checkbox" value="" id="medChk" /></td>
+                <td><input type="text" value="" id="medMod" /></td>
+            </tr>
+            <tr>
+                <td><label> Nature </label></td>
+                <td><input type="checkbox" value="" id="natChk" /></td>
+                <td><input type="text" value="" id="natMod" /></td>
+            </tr>
+            <tr>
+                <td><label> Perception </label></td>
+                <td><input type="checkbox" value="" id="percChk" /></td>
+                <td><input type="text" value="" id="percMod" /></td>
+            </tr>
+            <tr>
+                <td><label> Performance </label></td>
+                <td><input type="checkbox" value="" id="perfChk" /></td>
+                <td><input type="text" value="" id="perfMod" /></td>
+            </tr>
+            <tr>
+                <td><label> Persuasion </label></td>
+                <td><input type="checkbox" value="" id="persChk" /></td>
+                <td><input type="text" value="" id="persMod" /></td>
+            </tr>
+            <tr>
+                <td><label> Religion </label></td>
+                <td><input type="checkbox" value="" id="relChk" /></td>
+                <td><input type="text" value="" id="relMod" /></td>
+            </tr>
+            <tr>
+                <td><label> Slight of Hand </label></td>
+                <td><input type="checkbox" value="" id="sliChk" /></td>
+                <td><input type="text" value="" id="sliMod" /></td>
+            </tr>
+            <tr>
+                <td><label> Stealth </label></td>
+                <td><input type="checkbox" value="" id="steChk" /></td>
+                <td><input type="text" value="" id="steMod" /></td>
+            </tr>
+            <tr>
+                <td><label> Survival </label></td>
+                <td><input type="checkbox" value="" id="surChk" /></td>
+                <td><input type="text" value="" id="surMod" /></td>
+            </tr>
+        </table>
+
     </form>
-    
+    <input type="button" value="Generate!" onclick="generate()">
 </body>
 </html>
